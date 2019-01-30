@@ -15,7 +15,7 @@ windos电脑按win+r输入cmd点击确定<br>
 cd 到项目目录下输入<br>
 	python Crossing_FuCheng_test.py
 <br>然后会看到一个图形界面如下图<br>
-![](https://i.imgur.com/6b6BG37.jpg)
+![](./resource/image/test_pic.jpg)
 <br>点击起点位置，然后点击下一个方块的中心，可以计算出两者之间的距离，初步估计一个速度V，由D=V*T得出T=D/V。
 <br>经过初步的测试我得出1/V在2.2到2.5左右。
 
