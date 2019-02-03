@@ -11,8 +11,7 @@ def pull_screenshot():
     os.system('adb pull /sdcard/autojump.png .')
 
 def swipe(distance):
-	
-    cmd = 'adb shell input swipe 355 1180 355 1180 ' + str(int(distance * 2.2))
+    cmd = 'adb shell input swipe 355 1180 355 1180 ' + str(int(distance * (2 + (distance/1000))))
     print(cmd)
     os.system(cmd)
 
